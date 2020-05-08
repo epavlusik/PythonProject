@@ -315,9 +315,9 @@ def clicked2(*args):    # Metoda na kliknute env2
     Envhealth()
 #------------------------------------------------------------------------------------
 def clicked3(*args):
-    print("You are zero!")
+    print("clicked")
 
-def clicked4(*args):    # Metoda na DTV
+def clicked4(*args):   
     global env3pressed
     global health
     Envhealth()
@@ -335,7 +335,7 @@ def clicked4(*args):    # Metoda na DTV
         health = health - 1
     Envhealth()
 #-------------------------------------------------------------------------------------
-     # Metoda na Horizon
+
 
 def clicked5(*args):   
     global env4pressed
